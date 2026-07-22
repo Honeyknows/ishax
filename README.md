@@ -151,7 +151,7 @@ When a critical threat is detected, SOC analysts can trigger **Network Isolation
 ## 📂 Project Directory Structure
 
 ```text
-fckedr/
+edr/
 ├── START EDR.bat                 # One-click Windows launch script (starts full stack)
 ├── STOP EDR.bat                  # Clean shutdown script for all services
 ├── README.md                     # Enterprise documentation & project reference
