@@ -34,7 +34,7 @@ Built to combat modern fileless malware, obfuscated living-off-the-land binaries
 
 ```text
                +-------------------------------------------------------------+
-               |                  ENDPOINT AGENT STACK                        |
+               |                  ENDPOINT AGENT STACK                       |
                |                                                             |
                |  +--------------------+  +-------------------------------+  |
                |  |  Sysmon 64-bit     |  | AMSI ETW Watcher Service      |  |
@@ -52,7 +52,7 @@ Built to combat modern fileless malware, obfuscated living-off-the-land binaries
                                            | Encrypted Telemetry (Port 1514)
                                            v
                +-------------------------------------------------------------+
-               |                   ISHAX SERVER PIPELINE                      |
+               |                   ISHAX SERVER PIPELINE                     |
                |                                                             |
                |  +-------------------------------------------------------+  |
                |  | Wazuh Manager Container (Docker Compose)              |  |
@@ -70,7 +70,7 @@ Built to combat modern fileless malware, obfuscated living-off-the-land binaries
                |  | Detection Engine (detector.py)                        |  |
                |  |  - Layer A: AMSI Regex Match                          |  |
                |  |  - Layer B: pySigma Rules Engine                      |  |
-               |  |  - Overlay: T1027 Obfuscation Entropy Math             |  |
+               |  |  - Overlay: T1027 Obfuscation Entropy Math            |  |
                |  |  - 30s Window Correlation & Confidence Upgrade        |  |
                |  +------------------------+------------------------------+  |
                |                           |                                 |
